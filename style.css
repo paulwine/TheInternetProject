@@ -1,10 +1,12 @@
 *{
     margin: 0;
-    padding: 0:
+    padding: 0;
+
 }
 #wrapper{
     width:1000px;
     margin:0 auto;
+    
 }
 #header{
     display: block;
@@ -20,13 +22,13 @@
     width:70%;
     display: inline-block;
     vertical-align: top;
+    
 }
 
 .logo{
     height: 8%;
     width: 8%;
     z-index: 1;
-    display: inline;
     margin: 10px -10px -25px 0px;    
 }
 
@@ -130,13 +132,13 @@
 
 #thrighthead{
     display: inline-block;
-  
+    vertical-align: top;
     
 
     
 }
 .dnstext{
-    display: inline;
+    display: inline-block;
     vertical-align: top;
     font-family: Arial, Helvetica, sans-serif;
     color: #2B7BA6;
@@ -146,20 +148,71 @@
 
 }
 .dnsbutton{
-    display: inline;
+    display: inline-block;
     vertical-align: top;
-    width: 10%;
-   
+    width: 20px;
     
     
 
 }
 .phone{
-    width: 6%;
-    margin-left: 650px;
-    margin-top: -80px
+    width: 50px;
+    margin-left: 600px;
+   display: inline-block;
+   vertical-align: top;
+   margin-top: -20px;
+  
     
     
 }
+.width100{
+    width:800px;
+    margin-top: -30px;
+}
 
+#hoursphone{
+    display: inline-block;
+    position: relative;
+    left: 660px;
+    top: -55px;
+  
 
+}
+
+.infotextsmall{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 8px;
+display: block;
+color: #959595;
+
+}
+.phonenumber{
+color:#3FCDDF;
+font-size: 22px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+#mainbottom{
+    padding-top: 10px;
+  
+}
+
+.blueH{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #277DA9;
+    font-weight: bold;
+    margin-bottom:5px;
+  
+}
+.lightblue{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #39B8C6;
+    
+}
+.maintext{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+}
